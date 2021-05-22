@@ -30,10 +30,6 @@ class App extends Component {
         <LanguageContext.Provider value={this.state.language}>
           <UserCreate />
         </LanguageContext.Provider>
-        <LanguageContext.Provider value="english">
-          <UserCreate />
-        </LanguageContext.Provider>
-        <UserCreate />
       </div>
     );
   }
